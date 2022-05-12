@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/anmimos/delivery/config"
 	_ "github.com/jackc/pgx/v4/stdlib"
 	"github.com/jmoiron/sqlx"
+	"github.com/werbaev/deliveryegy/config"
 )
 
 var (

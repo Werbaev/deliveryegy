@@ -1,13 +1,13 @@
 package api
 
 import (
-	"github.com/anmimos/delivery/config"
-	"github.com/anmimos/delivery/pkg/logger"
-	"github.com/anmimos/delivery/storage"
 	"github.com/gin-gonic/gin"
+	"github.com/werbaev/deliveryegy/config"
+	"github.com/werbaev/deliveryegy/pkg/logger"
+	"github.com/werbaev/deliveryegy/storage"
 
-	_ "github.com/anmimos/delivery/api/docs"
-	v1 "github.com/anmimos/delivery/api/handlers/v1"
+	_ "github.com/werbaev/deliveryegy/api/docs"
+	v1 "github.com/werbaev/deliveryegy/api/handlers/v1"
 
 	"github.com/gin-contrib/cors"
 	swaggerFiles "github.com/swaggo/files"

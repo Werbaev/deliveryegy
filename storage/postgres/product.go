@@ -1,10 +1,10 @@
 package postgres
 
 import (
-	"github.com/anmimos/delivery/storage/entity"
-	"github.com/anmimos/delivery/storage/repo"
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/jmoiron/sqlx"
+	"github.com/werbaev/deliveryegy/storage/entity"
+	"github.com/werbaev/deliveryegy/storage/repo"
 )
 
 type productRepo struct {

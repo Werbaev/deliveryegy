@@ -5,13 +5,13 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/anmimos/delivery/api/models"
-	"github.com/anmimos/delivery/config"
-	"github.com/anmimos/delivery/pkg/logger"
-	"github.com/anmimos/delivery/storage"
 	"github.com/gin-gonic/gin"
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
+	"github.com/werbaev/deliveryegy/api/models"
+	"github.com/werbaev/deliveryegy/config"
+	"github.com/werbaev/deliveryegy/pkg/logger"
+	"github.com/werbaev/deliveryegy/storage"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

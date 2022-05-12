@@ -1,10 +1,10 @@
 package storage
 
 import (
-	"github.com/anmimos/delivery/storage/postgres"
-	"github.com/anmimos/delivery/storage/repo"
 	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq"
+	"github.com/werbaev/deliveryegy/storage/postgres"
+	"github.com/werbaev/deliveryegy/storage/repo"
 )
 
 type StorageI interface {

@@ -1,8 +1,8 @@
 package repo
 
 import (
-	"github.com/anmimos/delivery/storage/entity"
 	"github.com/golang/protobuf/ptypes/empty"
+	"github.com/werbaev/deliveryegy/storage/entity"
 )
 
 type VendorUserRepoI interface {

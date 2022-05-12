@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"math"
 
-	"github.com/anmimos/delivery/pkg/logger"
+	"github.com/werbaev/deliveryegy/pkg/logger"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

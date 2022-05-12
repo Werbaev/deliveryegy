@@ -3,12 +3,12 @@ package main
 import (
 	"fmt"
 
-	"github.com/anmimos/delivery/api"
-	"github.com/anmimos/delivery/config"
-	"github.com/anmimos/delivery/pkg/logger"
-	"github.com/anmimos/delivery/storage"
-	"github.com/jmoiron/sqlx"
 	_ "github.com/jackc/pgx/v4/stdlib"
+	"github.com/jmoiron/sqlx"
+	"github.com/werbaev/deliveryegy/api"
+	"github.com/werbaev/deliveryegy/config"
+	"github.com/werbaev/deliveryegy/pkg/logger"
+	"github.com/werbaev/deliveryegy/storage"
 )
 
 func main() {

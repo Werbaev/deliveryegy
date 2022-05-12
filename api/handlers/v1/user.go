@@ -1,9 +1,9 @@
 package v1
 
 import (
-	"github.com/anmimos/delivery/api/models"
-	"github.com/anmimos/delivery/storage/entity"
 	"github.com/gin-gonic/gin"
+	"github.com/werbaev/deliveryegy/api/models"
+	"github.com/werbaev/deliveryegy/storage/entity"
 )
 
 // @Router /v1/user/create [POST]

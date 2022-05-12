@@ -3,7 +3,7 @@ version: '3.7'
 
 services:
   delivery:
-    image: github.com/anmimos/delivery:latest
+    image: github.com/werbaev/deliveryegy:latest
     restart: always
     environment:
       - SERVICE_HOST=0.0.0.0  
@@ -18,23 +18,23 @@ services:
       - 8080:80
 
   client:
-    image: github.com/anmimos/jay24:latest
+    image: github.com/werbaev/jay24:latest
     restart: always
     ports:
       - 3000:80
 
   admin:
-    image: github.com/anmimos/delivery-admin-panel:latest
+    image: github.com/werbaev/deliveryegy-admin-panel:latest
     restart: always
     ports:
       - 3001:80
   courier:
-    image: github.com/anmimos/deliveryegy-courier:latest
+    image: github.com/werbaev/deliveryegy-courier:latest
     restart: always
     ports:
       - 3002:80
   restaurant:
-    image: github.com/anmimos/deliveryegy-restaurant:latest
+    image: github.com/werbaev/deliveryegy-restaurant:latest
     restart: always
     ports:
       - 3003:80

@@ -3,11 +3,11 @@ package postgres
 import (
 	"fmt"
 
-	"github.com/anmimos/delivery/storage/entity"
-	"github.com/anmimos/delivery/storage/repo"
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/jmoiron/sqlx"
 	"github.com/lib/pq"
+	"github.com/werbaev/deliveryegy/storage/entity"
+	"github.com/werbaev/deliveryegy/storage/repo"
 )
 
 type merchantRepo struct {

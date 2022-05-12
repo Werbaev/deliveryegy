@@ -1,4 +1,4 @@
-module github.com/anmimos/delivery
+module github.com/werbaev/deliveryegy
 
 go 1.17
 
